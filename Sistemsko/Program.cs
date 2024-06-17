@@ -19,7 +19,7 @@ public class Program
             return;
         }
 
-      //  var topicModeling = new TopicModeling(modelPath);
+        var topicModeling = new TopicModeling(modelPath);
 
         var keywordFilteredStream = commentStream
                                     .Where(comment => comment.Text.Contains("delicious"));
@@ -27,18 +27,18 @@ public class Program
         var subscription = keywordFilteredStream.Subscribe(observer);
 
         // Pretpostavljamo da imamo neki restoran sa id "restaurant-id"
-        string restaurantId = "restaurant-id"; // Zameni sa stvarnim ID-om restorana
+        string restaurantId = "sacred-taco-san-francisco"; // Zameni sa stvarnim ID-om restorana
         await commentStream.GetCommentsAsync(restaurantId);
 
         // Prikazivanje rezultata Topic Modeling-a
         var comments = await new CommentService().FetchCommentsAsync(restaurantId);
-       // var topics = topicModeling.GetTopics(comments.Select(c => c.Text));
+       var topics = topicModeling.GetTopics(comments.Select(c => c.Text));
 
-      /*  Console.WriteLine("Detected Topics:");
+        Console.WriteLine("Detected Topics:");
         foreach (var topic in topics)
         {
             Console.WriteLine(topic);
-        }*/
+        }
 
         Console.ReadLine();
         subscription.Dispose();

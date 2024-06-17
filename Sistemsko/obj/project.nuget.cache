@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sGCwmedkSuvBmdn9xE6DkR9pF0togyHEWEt+chUsjpUPc4e1bOHagMeByUaIXmLaE/diIkzlLKlGoQkzAinpqA==",
+  "dgSpecHash": "WVCVeEf54snOXphHJTXgvxuLE2lFWVk+WY45zvW6LiD8/yQsx9Flk0Mtpz0kzjvLSVurYflPVbhSAiWlG3jraA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Kristina\\Desktop\\vs\\Sistemsko\\Sistemsko.csproj",
+  "projectFilePath": "C:\\Users\\Kristina\\Sistemsko3\\Sistemsko\\Sistemsko.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kristina\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\Kristina\\.nuget\\packages\\sharpentropy\\1.0.0\\sharpentropy.1.0.0.nupkg.sha512",

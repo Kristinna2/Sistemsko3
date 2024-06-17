@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kristina\\Desktop\\vs\\Sistemsko\\Sistemsko.csproj": {}
+    "C:\\Users\\Kristina\\Sistemsko3\\Sistemsko\\Sistemsko.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kristina\\Desktop\\vs\\Sistemsko\\Sistemsko.csproj": {
+    "C:\\Users\\Kristina\\Sistemsko3\\Sistemsko\\Sistemsko.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kristina\\Desktop\\vs\\Sistemsko\\Sistemsko.csproj",
+        "projectUniqueName": "C:\\Users\\Kristina\\Sistemsko3\\Sistemsko\\Sistemsko.csproj",
         "projectName": "Sistemsko",
-        "projectPath": "C:\\Users\\Kristina\\Desktop\\vs\\Sistemsko\\Sistemsko.csproj",
+        "projectPath": "C:\\Users\\Kristina\\Sistemsko3\\Sistemsko\\Sistemsko.csproj",
         "packagesPath": "C:\\Users\\Kristina\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kristina\\Desktop\\vs\\Sistemsko\\obj\\",
+        "outputPath": "C:\\Users\\Kristina\\Sistemsko3\\Sistemsko\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kristina\\AppData\\Roaming\\NuGet\\NuGet.Config",

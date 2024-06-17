@@ -10,13 +10,13 @@ namespace Sistemsko
     public class CommentService
     {
         private readonly HttpClient client = new HttpClient();
-        private readonly string apiKey = "YOUR_YELP_API_KEY"; // Zameni sa tvojim API ključem
+        private readonly string apiKey = "nc7_TwT-BLJtkQuUPEq8CfTD7bMgNBBCahFxIZADrNDPZouqEiPETQLOceDxSujICL8TgpaKZGO5a04YkDYZyZbrWiR59vBZs_invIMotfJNJzcID5DYKcLUL5psZnYx"; // Zameni sa tvojim API ključem
 
         public async Task<IEnumerable<Comment>> FetchCommentsAsync(string restaurantId)
         {
             var url = $"https://api.yelp.com/v3/businesses/{restaurantId}/reviews";
             client.DefaultRequestHeaders.Add("Authorization", $"Bearer {apiKey}");
-           // var url = $"https://api.yelp.com/v3/businesses/{restaurantId}/reviews?api_key={apiKey}";??????
+           // var url = $"https://api.yelp.com/v3/businesses/{restaurantId}/reviews?api_key={apiKey}";
 
 
             var response = await client.GetAsync(url);
