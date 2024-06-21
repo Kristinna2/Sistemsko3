@@ -63,9 +63,10 @@ public class Program
             }
 
             var reviews = restaurantStream.allReviews.Select(r => new Document { Text = r.Text }).ToList();
+            //PerformTopicModeling(reviews);
+            TopicModeling.PerformTopicModeling(restaurantStream.allReviews);
 
-            
-            PerformTopicModeling(reviews);
+
         }
         catch (Exception e)
         {
@@ -79,53 +80,6 @@ public class Program
             //subscription3.Dispose();
         }
     }
-
-    static void PerformTopicModeling(List<Document> documents)
-    {
-        var mlContext = new MLContext();
-
-        var data = mlContext.Data.LoadFromEnumerable(documents);
-
-     
-        var textPipeline = mlContext.Transforms.Text
-            .NormalizeText("NormalizedText", "Text")
-            .Append(mlContext.Transforms.Text.TokenizeIntoWords("Tokens", "NormalizedText"))
-            .Append(mlContext.Transforms.Text.RemoveDefaultStopWords("Tokens")) // Uklanjanje engleskih stop reči
-            .Append(mlContext.Transforms.Text.ProduceWordBags("BagOfWords", "Tokens"))
-            .Append(mlContext.Transforms.Text.LatentDirichletAllocation("Topics", "BagOfWords", numberOfTopics: 2));
-
-        // Treniranje modela
-        var model = textPipeline.Fit(data);
-
-        // Transformisanje podataka
-        var transformedData = model.Transform(data);
-
-        // Prikazivanje tema
-        var topics = mlContext.Data.CreateEnumerable<TransformedDocument>(transformedData, reuseRowObject: false);
-
-        foreach (var doc in topics)
-        {
-            Console.WriteLine($"Comment: {doc.Text}");
-            Console.WriteLine("Topics:");
-
-            for (int i = 0; i < doc.Topics.Length; i++)
-            {
-                string topicName = i == 0 ? "Food" : "Service"; // Prilagoditi nazive temama kako odgovaraju analiziranom sadržaju
-
-                Console.WriteLine($"  Topic {topicName}: {doc.Topics[i]}");
-            }
-
-            Console.WriteLine();
-        }
-    }
 }
+   
 
-public class Document
-{
-    public string Text { get; set; }
-}
-
-public class TransformedDocument : Document
-{
-    public float[] Topics { get; set; }
-}
