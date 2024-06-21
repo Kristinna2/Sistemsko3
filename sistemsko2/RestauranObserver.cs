@@ -1,4 +1,5 @@
-﻿using System;
+﻿using sistemsko2;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -29,5 +30,29 @@ namespace sistemsko2
         {
             Console.WriteLine($"{name}: All restaurants successfully returned.");
         }
+    }
+}
+public class ReviewObserver : IObserver<Review>
+{
+    private readonly string name;
+
+    public ReviewObserver(string name)
+    {
+        this.name = name;
+    }
+
+    public void OnNext(Review review)
+    {
+        Console.WriteLine($"{name}: Review: {review.Text}");
+    }
+
+    public void OnError(Exception e)
+    {
+        Console.WriteLine($"{name}: An error occurred: {e.Message}");
+    }
+
+    public void OnCompleted()
+    {
+        Console.WriteLine($"{name}: All reviews successfully returned.");
     }
 }

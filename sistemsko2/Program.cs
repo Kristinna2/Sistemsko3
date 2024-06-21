@@ -20,6 +20,9 @@ public class Program
         //var subscription2 = restaurantStream.Subscribe(observer2);
         //var subscription3 = restaurantStream.Subscribe(observer3);
 
+        var reviewObserver = new ReviewObserver("ReviewObserver");
+        var reviewSubscription = restaurantStream.Subscribe(reviewObserver);
+
         string location;
         Console.WriteLine("Enter location:");
         location = System.Console.ReadLine()!;
@@ -71,6 +74,7 @@ public class Program
         finally
         {
             subscription1.Dispose();
+            reviewSubscription.Dispose();
             //subscription2.Dispose();
             //subscription3.Dispose();
         }

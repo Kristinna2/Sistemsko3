@@ -12,6 +12,7 @@ namespace sistemsko2
     public class RestaurantStream : IObservable<Restaurant>
     {
         private readonly Subject<Restaurant> restaurantSubject;
+        private readonly Subject<Review> reviewSubject;
 
         public List<Review> allReviews = new List<Review>();
         public List<Restaurant> allRestaurants = new List<Restaurant>();
@@ -19,6 +20,7 @@ namespace sistemsko2
         public RestaurantStream()
         {
             restaurantSubject = new Subject<Restaurant>();
+            reviewSubject = new Subject<Review>();
         }
 
         public async Task GetReviewsForRestaurant(string restaurantId)
@@ -55,12 +57,14 @@ namespace sistemsko2
                     };
 
                     allReviews.Add(newReview);
+                    reviewSubject.OnNext(newReview);
                 }
+                reviewSubject.OnCompleted();
             }
             catch (Exception e)
             {
                 Console.WriteLine("Došlo je do greške: " + e.Message);
-                restaurantSubject.OnError(e);
+                reviewSubject.OnError(e);
             }
         }
 
@@ -114,6 +118,11 @@ namespace sistemsko2
         public IDisposable Subscribe(IObserver<Restaurant> observer)
         {
             return restaurantSubject.Subscribe(observer);
+        }
+
+        public IDisposable Subscribe(IObserver<Review> observer)
+        {
+            return reviewSubject.Subscribe(observer);
         }
     }
 }
