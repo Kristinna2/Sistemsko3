@@ -1447,11 +1447,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kristina\\Desktop\\vs\\sistemsko2\\sistemsko2.csproj",
+      "projectUniqueName": "C:\\Users\\Kristina\\Desktop\\Sistemsko3-main\\Sistemsko3-main\\Sistemsko3-main\\sistemsko2\\sistemsko2.csproj",
       "projectName": "sistemsko2",
-      "projectPath": "C:\\Users\\Kristina\\Desktop\\vs\\sistemsko2\\sistemsko2.csproj",
+      "projectPath": "C:\\Users\\Kristina\\Desktop\\Sistemsko3-main\\Sistemsko3-main\\Sistemsko3-main\\sistemsko2\\sistemsko2.csproj",
       "packagesPath": "C:\\Users\\Kristina\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kristina\\Desktop\\vs\\sistemsko2\\obj\\",
+      "outputPath": "C:\\Users\\Kristina\\Desktop\\Sistemsko3-main\\Sistemsko3-main\\Sistemsko3-main\\sistemsko2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Kristina\\AppData\\Roaming\\NuGet\\NuGet.Config",

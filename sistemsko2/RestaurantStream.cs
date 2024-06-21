@@ -21,7 +21,6 @@ namespace sistemsko2
             restaurantSubject = new Subject<Restaurant>();
         }
 
-      
         public async Task GetReviewsForRestaurant(string restaurantId)
         {
             string apiKey = "2_q8j2LVao1x_I29nr04hZCpCB5pBrb_xHgah4cUtOdkMqvYi46Bz0w74falKDkJkcOBs6BYlNaop0RhGIk4YCHAm1l-TG-Z7VNQbTbKaKQm2oI-H41jhJXR22GcZHYx";
@@ -60,6 +59,7 @@ namespace sistemsko2
             }
             catch (Exception e)
             {
+                Console.WriteLine("Došlo je do greške: " + e.Message);
                 restaurantSubject.OnError(e);
             }
         }
@@ -106,6 +106,7 @@ namespace sistemsko2
             }
             catch (Exception e)
             {
+                Console.WriteLine("Došlo je do greške: " + e.Message);
                 restaurantSubject.OnError(e);
             }
         }
@@ -116,3 +117,5 @@ namespace sistemsko2
         }
     }
 }
+
+

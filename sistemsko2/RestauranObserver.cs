@@ -17,7 +17,7 @@ namespace sistemsko2
 
         public void OnNext(Restaurant restaurant)
         {
-            Console.WriteLine($"{name}: {restaurant.Id}!");
+            Console.WriteLine($"{name}: {restaurant.Id}");
         }
 
         public void OnError(Exception e)
