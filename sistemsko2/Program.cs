@@ -2,15 +2,19 @@
 using Microsoft.ML.Data;
 using Newtonsoft.Json;
 using sistemsko2;
+using System.Net;
 using System.Net.Http.Headers;
 using System.Reactive.Subjects;
 using System.Xml.Linq;
 
 public class Program
 {
-    public async static Task Main()
+   
+    public  static async Task  Main()
     {
-        var restaurantStream = new RestaurantStream();
+            var restaurantStream = new RestaurantStream();
+
+        
 
         var observer1 = new RestaurantObserver("Observer 1");
         //var observer2 = new RestaurantObserver("Observer 2");
@@ -27,10 +31,12 @@ public class Program
         Console.WriteLine("Enter location:");
         location = System.Console.ReadLine()!;
 
-        try
-        {
-            await restaurantStream.GetRestaurants(location);
+        
+           await restaurantStream.GetRestaurants(location);
+            //  var getRestaurantsTask = restaurantStream.GetRestaurants(location);
+            await Task.Delay(1000); 
 
+            //getRestaurantsTask.Wait();
             if (restaurantStream.allRestaurants.Count == 0)
             {
                 Console.WriteLine("No restaurants found for the given location.");
@@ -54,7 +60,9 @@ public class Program
                 return;
             }
 
-            await restaurantStream.GetReviewsForRestaurant(restaurantId);
+           await restaurantStream.GetReviewsForRestaurant(restaurantId);
+          //  var getReviewsTask = restaurantStream.GetReviewsForRestaurant(restaurantId);
+           // getReviewsTask.Wait();
 
             if (restaurantStream.allReviews.Count == 0)
             {
@@ -67,18 +75,14 @@ public class Program
             TopicModeling.PerformTopicModeling(restaurantStream.allReviews);
 
 
-        }
-        catch (Exception e)
-        {
-            Console.WriteLine("Došlo je do greške: " + e.Message);
-        }
-        finally
-        {
+        
+       
+        
             subscription1.Dispose();
             reviewSubscription.Dispose();
             //subscription2.Dispose();
             //subscription3.Dispose();
-        }
+        
     }
 }
    

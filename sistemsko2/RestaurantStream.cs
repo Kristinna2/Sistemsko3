@@ -3,13 +3,15 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http.Headers;
+using System.Reactive.Concurrency;
+using System.Reactive.Linq;
 using System.Reactive.Subjects;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace sistemsko2
 {
-    public class RestaurantStream : IObservable<Restaurant>
+    public class RestaurantStream : IObservable<Restaurant>, IObservable<Review>
     {
         private readonly Subject<Restaurant> restaurantSubject;
         private readonly Subject<Review> reviewSubject;
@@ -115,14 +117,20 @@ namespace sistemsko2
             }
         }
 
-        public IDisposable Subscribe(IObserver<Restaurant> observer)
+       public IDisposable Subscribe(IObserver<Restaurant> observer)
         {
-            return restaurantSubject.Subscribe(observer);
+            return restaurantSubject
+                 .ObserveOn(Scheduler.Default)
+                 .SubscribeOn(Scheduler.ThreadPool)
+                 .Subscribe(observer);
         }
 
         public IDisposable Subscribe(IObserver<Review> observer)
         {
-            return reviewSubject.Subscribe(observer);
+            return reviewSubject
+                .ObserveOn(Scheduler.Default)
+                .SubscribeOn(Scheduler.ThreadPool)
+                .Subscribe(observer);
         }
     }
 }

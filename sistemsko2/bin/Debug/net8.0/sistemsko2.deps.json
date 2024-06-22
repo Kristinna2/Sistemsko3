@@ -16,6 +16,7 @@
           "RestSharp": "111.2.0",
           "SharpEntropy": "1.0.0",
           "System.Reactive": "6.0.1",
+          "System.Threading.Tasks": "4.3.0",
           "Yelp.Api": "1.3.0",
           "YelpSharp": "1.2.1"
         },
