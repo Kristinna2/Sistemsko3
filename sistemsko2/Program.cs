@@ -62,7 +62,7 @@ public class Program
                 return;
             }
 
-            var reviews = restaurantStream.allReviews.Select(r => new Document { Text = r.Text }).ToList();
+            //var reviews = restaurantStream.allReviews.Select(r => new Document { Text = r.Text }).ToList();
             //PerformTopicModeling(reviews);
             TopicModeling.PerformTopicModeling(restaurantStream.allReviews);
 
