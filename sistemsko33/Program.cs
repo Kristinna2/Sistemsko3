@@ -23,8 +23,8 @@ public class Program
         var observer1 = new RestaurantObserver("Observer 1");
         var subscription1 = restaurantStream.Subscribe(observer1);
 
-        var reviewObserver = new ReviewObserver("ReviewObserver");
-        var reviewSubscription = restaurantStream.Subscribe(reviewObserver);
+       var reviewObserver = new ReviewObserver("ReviewObserver");
+       var reviewSubscription = restaurantStream.Subscribe(reviewObserver);
 
         var listener = new HttpListener();
         listener.Prefixes.Add("http://localhost:8080/");
@@ -36,12 +36,14 @@ public class Program
         {
             while (true)
             {
+               
                 var context = await listener.GetContextAsync();
                 var request = context.Request;
                 var response = context.Response;
 
                 try
                 {
+                   
                     string responseString = await HandleRequest(restaurantStream, request);
                     var buffer = Encoding.UTF8.GetBytes(responseString);
 
@@ -59,6 +61,7 @@ public class Program
                     response.StatusDescription = "Internal Server Error";
                     response.Close();
                 }
+
             }
         }
         finally
@@ -80,7 +83,7 @@ public class Program
             string segment = segments[1].TrimEnd('/');
             Logger.Info($"Handling request for segment: {segment}");
 
-            // Check if the segment contains only letters and underscores (for location)
+            
             if (segment.All(c => char.IsLetter(c) || c == '_'))
             {
                 string location = segment.Replace("_", " ");
@@ -153,7 +156,7 @@ public class Program
         sb.Append("<html><body><h1>Reviews</h1><ul>");
         for (int i = 0; i < reviews.Count; i++)
         {
-            sb.AppendFormat("<li><strong>Comment:</strong> {0}<br><strong>Topics:</strong> Food: {1}%, Service: {2}%</li>",
+            sb.AppendFormat("<li><strong>Comment:</strong> {0}<br><strong>Topics:</strong> PrvaTema: {1}%, DrugaTema: {2}%</li>",
                 reviews[i].Text,
                 (topics[i][0] * 100).ToString("F2"),
                 (topics[i][1] * 100).ToString("F2"));

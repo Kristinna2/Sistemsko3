@@ -53,6 +53,10 @@
               "target": "Package",
               "version": "[3.0.1, )"
             },
+            "Microsoft.ML.Tokenizers": {
+              "target": "Package",
+              "version": "[0.21.1, )"
+            },
             "NLog": {
               "target": "Package",
               "version": "[5.3.2, )"

@@ -266,3 +266,4 @@ C:\Users\Kristina\Sistemsko3\sistemsko33\obj\Debug\net8.0\refint\sistemsko2.dll
 C:\Users\Kristina\Sistemsko3\sistemsko33\obj\Debug\net8.0\sistemsko2.pdb
 C:\Users\Kristina\Sistemsko3\sistemsko33\obj\Debug\net8.0\sistemsko2.genruntimeconfig.cache
 C:\Users\Kristina\Sistemsko3\sistemsko33\obj\Debug\net8.0\ref\sistemsko2.dll
+C:\Users\Kristina\Sistemsko3\sistemsko33\bin\Debug\net8.0\Microsoft.ML.Tokenizers.dll

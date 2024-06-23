@@ -701,3 +701,411 @@ Information was forthcoming and suggestions of specials were given.
 2024-06-23 13:59:48.0271 INFO Processed request: http://localhost:8080/id/f-m7-hyFzkf0HSEeQ2s-9A 
 2024-06-23 13:59:48.0415 INFO Handling request for segment: favicon.ico 
 2024-06-23 13:59:48.0418 INFO Processed request: http://localhost:8080/favicon.ico 
+2024-06-23 16:26:55.0657 INFO Starting web server... 
+2024-06-23 16:26:55.1412 INFO Listening for requests at http://localhost:8080/ 
+2024-06-23 16:26:59.4160 INFO Handling request for segment: San_Francisco 
+2024-06-23 16:26:59.4457 INFO Getting restaurants for location: San Francisco 
+2024-06-23 16:26:59.4573 INFO Request URL: https://api.yelp.com/v3/businesses/search?location=San Francisco&categories=restaurants 
+2024-06-23 16:27:00.9706 INFO Response Status Code: OK 
+2024-06-23 16:27:01.1616 INFO Business found: Fog Harbor Fish House 
+2024-06-23 16:27:01.1740 INFO Business found: Gary Danko 
+2024-06-23 16:27:01.1740 INFO Business found: House of Prime Rib 
+2024-06-23 16:27:01.1740 INFO Business found: Brenda's French Soul Food 
+2024-06-23 16:27:01.1740 INFO Business found: Surisan 
+2024-06-23 16:27:01.1740 INFO Business found: Marufuku Ramen 
+2024-06-23 16:27:01.1740 INFO Business found: Liholiho Yacht Club 
+2024-06-23 16:27:01.1740 INFO Business found: Foreign Cinema 
+2024-06-23 16:27:01.1740 INFO Business found: Hog Island Oyster 
+2024-06-23 16:27:01.1740 INFO Observer 1: f-m7-hyFzkf0HSEeQ2s-9A 
+2024-06-23 16:27:01.1740 INFO Business found: Roma Antica 
+2024-06-23 16:27:01.1740 INFO Business found: Nopa 
+2024-06-23 16:27:01.1740 INFO Business found: Kokkari Estiatorio 
+2024-06-23 16:27:01.1740 INFO Business found: Scoma's Restaurant 
+2024-06-23 16:27:01.1740 INFO Observer 1: WavvLdfdP6g8aZTtbBQHTw 
+2024-06-23 16:27:01.1740 INFO Business found: San Tung 
+2024-06-23 16:27:01.1740 INFO Business found: Sotto Mare 
+2024-06-23 16:27:01.1740 INFO Business found: Beretta Valencia 
+2024-06-23 16:27:01.1740 INFO Business found: Kitchen Story 
+2024-06-23 16:27:01.1740 INFO Business found: Zazie 
+2024-06-23 16:27:01.1740 INFO Business found: Sweet Maple 
+2024-06-23 16:27:01.1740 INFO Observer 1: oT08T3Vpn1I7jDmrBBRMTw 
+2024-06-23 16:27:01.1740 INFO Business found: Anchor Oyster Bar 
+2024-06-23 16:27:01.1740 INFO Observer 1: lJAGnYzku5zSaLnQ_T6_GQ 
+2024-06-23 16:27:01.1740 INFO Observer 1: i09UMzccKgyLwGYKDVP28w 
+2024-06-23 16:27:01.1740 INFO Observer 1: HHtpR0RslupSQ99GIIwW5A 
+2024-06-23 16:27:01.1740 INFO Successfully retrieved restaurants. 
+2024-06-23 16:27:01.1740 INFO Observer 1: KkAVX3Wb7E3lP5F_f_8pXg 
+2024-06-23 16:27:01.1740 INFO Observer 1: n6L5VIGunR51-D55C-eYeQ 
+2024-06-23 16:27:01.1740 INFO Observer 1: Xg-FyjVKAN70LO4u4Z1ozg 
+2024-06-23 16:27:01.1740 INFO Observer 1: B09WOy0W83Od-Xw4xEXxog 
+2024-06-23 16:27:01.1740 INFO Observer 1: ttarnopezxmp2ROB1N2PaA 
+2024-06-23 16:27:01.1740 INFO Observer 1: PsY5DMHxa5iNX_nX0T-qPA 
+2024-06-23 16:27:01.1740 INFO Observer 1: jqEpBbf_qNfWuz_GBkwCjw 
+2024-06-23 16:27:01.1740 INFO Observer 1: M0JTO3oyu6gxh1mfFjU-dA 
+2024-06-23 16:27:01.1740 INFO Observer 1: 8dUaybEPHsZMgr1iKgqgMQ 
+2024-06-23 16:27:01.1740 INFO Observer 1: 4KfQnlcSu4bbTqnvGdGptw 
+2024-06-23 16:27:01.1740 INFO Observer 1: XQLmEdXoMzOpffwoFaBtaQ 
+2024-06-23 16:27:01.1740 INFO Observer 1: gqVl3RprESEqkIPeJH0yOg 
+2024-06-23 16:27:01.1740 INFO Observer 1: -DrR38H1Abk0wCyu9XOLug 
+2024-06-23 16:27:01.1740 INFO Observer 1: ZDvIMjJ-7I0561ckM4pAeA 
+2024-06-23 16:27:01.1740 INFO Observer 1: All restaurants successfully returned. 
+2024-06-23 16:27:01.1862 INFO Processed request: http://localhost:8080/San_Francisco 
+2024-06-23 16:27:01.2405 INFO Handling request for segment: favicon.ico 
+2024-06-23 16:27:01.2405 INFO Processed request: http://localhost:8080/favicon.ico 
+2024-06-23 16:27:15.3332 INFO Fetching reviews for restaurant ID: f-m7-hyFzkf0HSEeQ2s-9A 
+2024-06-23 16:27:15.3397 INFO Getting reviews for restaurant ID: f-m7-hyFzkf0HSEeQ2s-9A 
+2024-06-23 16:27:15.3397 INFO Request URL: https://api.yelp.com/v3/businesses/f-m7-hyFzkf0HSEeQ2s-9A/reviews? 
+2024-06-23 16:27:15.6687 INFO Response Status Code: OK 
+2024-06-23 16:27:15.6687 INFO Number of reviews fetched: 3 
+2024-06-23 16:27:15.6925 INFO Successfully retrieved reviews. 
+2024-06-23 16:27:15.6925 INFO ReviewObserver: Review: My mom and dad would take us to the piers as kids. What i remember as a kid, so much has changed. Mom would always get clam chowder and dad the crab. This... 
+2024-06-23 16:27:15.6925 INFO ReviewObserver: Review: Good food and best service, great dinner experiences by BONGJOVI, he was a great server. Best place to go for a date, and have a great San Francisco view. 
+2024-06-23 16:27:15.6925 INFO ReviewObserver: Review: Mr. Luis our server did and amazing Job with a friendly smile.
+Information was forthcoming and suggestions of specials were given. 
+2024-06-23 16:27:15.6925 INFO ReviewObserver: All reviews successfully returned. 
+2024-06-23 16:27:16.0093 INFO Processed request: http://localhost:8080/id/f-m7-hyFzkf0HSEeQ2s-9A 
+2024-06-23 16:27:16.0261 INFO Handling request for segment: favicon.ico 
+2024-06-23 16:27:16.0261 INFO Processed request: http://localhost:8080/favicon.ico 
+2024-06-23 17:42:50.9261 INFO Starting web server... 
+2024-06-23 17:42:51.0096 INFO Listening for requests at http://localhost:8080/ 
+2024-06-23 17:43:00.5937 INFO Handling request for segment: New_York 
+2024-06-23 17:43:00.6284 INFO Getting restaurants for location: New York 
+2024-06-23 17:43:00.6419 INFO Request URL: https://api.yelp.com/v3/businesses/search?location=New York&categories=restaurants 
+2024-06-23 17:43:02.1193 INFO Response Status Code: OK 
+2024-06-23 17:43:02.2972 INFO Business found: Gramercy Tavern 
+2024-06-23 17:43:02.3096 INFO Business found: Juliana's 
+2024-06-23 17:43:02.3096 INFO Business found: Manhatta 
+2024-06-23 17:43:02.3096 INFO Business found: Don Angie 
+2024-06-23 17:43:02.3096 INFO Business found: LoveMama 
+2024-06-23 17:43:02.3096 INFO Business found: Prince Street Pizza 
+2024-06-23 17:43:02.3096 INFO Business found: Eleven Madison Park 
+2024-06-23 17:43:02.3096 INFO Business found: La Grande Boucherie 
+2024-06-23 17:43:02.3096 INFO Business found: Dutch Freds 
+2024-06-23 17:43:02.3096 INFO Business found: Thursday Kitchen 
+2024-06-23 17:43:02.3096 INFO Observer 1: veq1Bl1DW3UWMekZJUsG1Q 
+2024-06-23 17:43:02.3096 INFO Business found: Best Bagel & Coffee 
+2024-06-23 17:43:02.3096 INFO Business found: Ci Siamo 
+2024-06-23 17:43:02.3096 INFO Business found: Per Se 
+2024-06-23 17:43:02.3096 INFO Observer 1: ysqgdbSrezXgVwER2kQWKA 
+2024-06-23 17:43:02.3096 INFO Business found: Junior's Restaurant 
+2024-06-23 17:43:02.3096 INFO Observer 1: ypqK8DWM8Bcs43YveSJnNw 
+2024-06-23 17:43:02.3096 INFO Business found: Le Coucou 
+2024-06-23 17:43:02.3096 INFO Business found: Tara Rose 
+2024-06-23 17:43:02.3096 INFO Business found: Shuka 
+2024-06-23 17:43:02.3096 INFO Business found: Daniel 
+2024-06-23 17:43:02.3096 INFO Business found: Potluck Club 佰樂 
+2024-06-23 17:43:02.3096 INFO Business found: Au Cheval 
+2024-06-23 17:43:02.3142 INFO Observer 1: h37t9rA06Sr4EetJjKrfzw 
+2024-06-23 17:43:02.3142 INFO Successfully retrieved restaurants. 
+2024-06-23 17:43:02.3142 INFO Observer 1: jjJc_CrkB2HodEinB6cWww 
+2024-06-23 17:43:02.3142 INFO Observer 1: zj8Lq1T8KIC5zwFief15jg 
+2024-06-23 17:43:02.3142 INFO Observer 1: nRO136GRieGtxz18uD61DA 
+2024-06-23 17:43:02.3142 INFO Observer 1: DGhWO1sUWydVeR5j5ZZaMw 
+2024-06-23 17:43:02.3142 INFO Observer 1: SaYTVG7wHCMDBofHCgXPaA 
+2024-06-23 17:43:02.3142 INFO Observer 1: fVbUVAiLiGgLA_nxBFxyww 
+2024-06-23 17:43:02.3142 INFO Observer 1: j1S3NUrkB3BVT49n_e76NQ 
+2024-06-23 17:43:02.3142 INFO Observer 1: LkV96_buOU_n0br4SBO57w 
+2024-06-23 17:43:02.3142 INFO Observer 1: 1DfbZ0VsSCg9g1KILmnvzQ 
+2024-06-23 17:43:02.3142 INFO Observer 1: U5hCNNyJmb7f3dmC1HTzSQ 
+2024-06-23 17:43:02.3142 INFO Observer 1: obFs12x7mgYPGxgalBd22w 
+2024-06-23 17:43:02.3142 INFO Observer 1: OgM6WwztLVavBQBmb_g5aw 
+2024-06-23 17:43:02.3142 INFO Observer 1: Rj2ACaJcbroJLPDhRhzvBw 
+2024-06-23 17:43:02.3142 INFO Observer 1: DZaN3bNWfwcm__sNw5bvDg 
+2024-06-23 17:43:02.3142 INFO Observer 1: gNGxh97n0NZgYG1Q_no9Kg 
+2024-06-23 17:43:02.3142 INFO Observer 1: __EvomQ2tE1NtkWn32WEXg 
+2024-06-23 17:43:02.3142 INFO Observer 1: All restaurants successfully returned. 
+2024-06-23 17:43:02.3142 INFO Processed request: http://localhost:8080/New_York 
+2024-06-23 17:43:02.3446 INFO Handling request for segment: favicon.ico 
+2024-06-23 17:43:02.3446 INFO Processed request: http://localhost:8080/favicon.ico 
+2024-06-23 17:43:13.6125 INFO Fetching reviews for restaurant ID: veq1Bl1DW3UWMekZJUsG1Q 
+2024-06-23 17:43:13.6125 INFO Getting reviews for restaurant ID: veq1Bl1DW3UWMekZJUsG1Q 
+2024-06-23 17:43:13.6125 INFO Request URL: https://api.yelp.com/v3/businesses/veq1Bl1DW3UWMekZJUsG1Q/reviews? 
+2024-06-23 17:43:13.9386 INFO Response Status Code: OK 
+2024-06-23 17:43:13.9386 INFO Number of reviews fetched: 3 
+2024-06-23 17:43:13.9584 INFO Successfully retrieved reviews. 
+2024-06-23 17:43:13.9584 INFO ReviewObserver: Review: First time back in 10 years, this time in the more informal Tavern.  There's nothing to dislike about Gramercy Tavern, from delicious food to solid service.... 
+2024-06-23 17:43:13.9584 INFO ReviewObserver: Review: I chose the Gramercy Tavern because it's an NYC institution with a great reputation and excellent reviews. I figured that I couldn't go wrong, until we... 
+2024-06-23 17:43:13.9584 INFO ReviewObserver: Review: Service is impeccable. Drinks were amazing (we also got the GT manhattan and GT old fashioned, as well as the Socratic method --very peaty & leathery,... 
+2024-06-23 17:43:13.9584 INFO ReviewObserver: All reviews successfully returned. 
+2024-06-23 17:43:14.2698 INFO Processed request: http://localhost:8080/id/veq1Bl1DW3UWMekZJUsG1Q 
+2024-06-23 17:43:14.2954 INFO Handling request for segment: favicon.ico 
+2024-06-23 17:43:14.2962 INFO Processed request: http://localhost:8080/favicon.ico 
+2024-06-23 17:44:35.0247 INFO Fetching reviews for restaurant ID: ysqgdbSrezXgVwER2kQWKA 
+2024-06-23 17:44:35.0272 INFO Getting reviews for restaurant ID: ysqgdbSrezXgVwER2kQWKA 
+2024-06-23 17:44:35.0272 INFO Request URL: https://api.yelp.com/v3/businesses/ysqgdbSrezXgVwER2kQWKA/reviews? 
+2024-06-23 17:44:35.7647 INFO Response Status Code: OK 
+2024-06-23 17:44:35.7663 INFO Number of reviews fetched: 3 
+2024-06-23 17:44:35.7663 INFO Successfully retrieved reviews. 
+2024-06-23 17:44:35.9296 INFO Processed request: http://localhost:8080/id/ysqgdbSrezXgVwER2kQWKA 
+2024-06-23 17:44:35.9488 INFO Handling request for segment: favicon.ico 
+2024-06-23 17:44:35.9488 INFO Processed request: http://localhost:8080/favicon.ico 
+2024-06-23 17:47:04.2299 INFO Starting web server... 
+2024-06-23 17:47:04.2878 INFO Listening for requests at http://localhost:8080/ 
+2024-06-23 17:47:14.2595 INFO Handling request for segment: New_York 
+2024-06-23 17:47:14.2666 INFO Getting restaurants for location: New York 
+2024-06-23 17:47:14.2666 INFO Request URL: https://api.yelp.com/v3/businesses/search?location=New York&categories=restaurants 
+2024-06-23 17:47:15.8277 INFO Response Status Code: OK 
+2024-06-23 17:47:15.9519 INFO Business found: Gramercy Tavern 
+2024-06-23 17:47:15.9519 INFO Business found: Juliana's 
+2024-06-23 17:47:15.9519 INFO Business found: Manhatta 
+2024-06-23 17:47:15.9519 INFO Business found: Olio e Più 
+2024-06-23 17:47:15.9519 INFO Observer 1: veq1Bl1DW3UWMekZJUsG1Q 
+2024-06-23 17:47:15.9519 INFO Business found: Thai Villa 
+2024-06-23 17:47:15.9519 INFO Business found: Don Angie 
+2024-06-23 17:47:15.9519 INFO Business found: LoveMama 
+2024-06-23 17:47:15.9519 INFO Business found: Prince Street Pizza 
+2024-06-23 17:47:15.9519 INFO Observer 1: ysqgdbSrezXgVwER2kQWKA 
+2024-06-23 17:47:15.9519 INFO Business found: Eleven Madison Park 
+2024-06-23 17:47:15.9519 INFO Observer 1: ypqK8DWM8Bcs43YveSJnNw 
+2024-06-23 17:47:15.9519 INFO Business found: La Grande Boucherie 
+2024-06-23 17:47:15.9519 INFO Business found: Dutch Freds 
+2024-06-23 17:47:15.9519 INFO Business found: Thursday Kitchen 
+2024-06-23 17:47:15.9519 INFO Business found: Best Bagel & Coffee 
+2024-06-23 17:47:15.9519 INFO Business found: Katz's Delicatessen 
+2024-06-23 17:47:15.9659 INFO Business found: Ci Siamo 
+2024-06-23 17:47:15.9659 INFO Observer 1: 16ZnHpuaaBt92XWeJHCC5A 
+2024-06-23 17:47:15.9659 INFO Business found: Per Se 
+2024-06-23 17:47:15.9659 INFO Observer 1: B3_K2kUVbYOU0VaLcj_LTw 
+2024-06-23 17:47:15.9659 INFO Business found: Boucherie Union Square 
+2024-06-23 17:47:15.9659 INFO Observer 1: h37t9rA06Sr4EetJjKrfzw 
+2024-06-23 17:47:15.9659 INFO Business found: Le Coucou 
+2024-06-23 17:47:15.9659 INFO Observer 1: jjJc_CrkB2HodEinB6cWww 
+2024-06-23 17:47:15.9659 INFO Business found: Tara Rose 
+2024-06-23 17:47:15.9659 INFO Observer 1: zj8Lq1T8KIC5zwFief15jg 
+2024-06-23 17:47:15.9659 INFO Observer 1: nRO136GRieGtxz18uD61DA 
+2024-06-23 17:47:15.9659 INFO Business found: Shuka 
+2024-06-23 17:47:15.9659 INFO Observer 1: DGhWO1sUWydVeR5j5ZZaMw 
+2024-06-23 17:47:15.9659 INFO Observer 1: SaYTVG7wHCMDBofHCgXPaA 
+2024-06-23 17:47:15.9659 INFO Observer 1: fVbUVAiLiGgLA_nxBFxyww 
+2024-06-23 17:47:15.9659 INFO Observer 1: j1S3NUrkB3BVT49n_e76NQ 
+2024-06-23 17:47:15.9659 INFO Successfully retrieved restaurants. 
+2024-06-23 17:47:15.9659 INFO Observer 1: V7lXZKBDzScDeGB8JmnzSA 
+2024-06-23 17:47:15.9659 INFO Observer 1: LkV96_buOU_n0br4SBO57w 
+2024-06-23 17:47:15.9659 INFO Observer 1: 1DfbZ0VsSCg9g1KILmnvzQ 
+2024-06-23 17:47:15.9659 INFO Observer 1: 8XHbZIKDQbXhyKIGiukVeQ 
+2024-06-23 17:47:15.9659 INFO Observer 1: obFs12x7mgYPGxgalBd22w 
+2024-06-23 17:47:15.9659 INFO Observer 1: OgM6WwztLVavBQBmb_g5aw 
+2024-06-23 17:47:15.9659 INFO Observer 1: Rj2ACaJcbroJLPDhRhzvBw 
+2024-06-23 17:47:15.9659 INFO Observer 1: All restaurants successfully returned. 
+2024-06-23 17:47:15.9659 INFO Processed request: http://localhost:8080/New_York 
+2024-06-23 17:47:15.9868 INFO Handling request for segment: favicon.ico 
+2024-06-23 17:47:15.9868 INFO Processed request: http://localhost:8080/favicon.ico 
+2024-06-23 17:47:24.6768 INFO Fetching reviews for restaurant ID: ysqgdbSrezXgVwER2kQWKA 
+2024-06-23 17:47:24.6768 INFO Getting reviews for restaurant ID: ysqgdbSrezXgVwER2kQWKA 
+2024-06-23 17:47:24.6768 INFO Request URL: https://api.yelp.com/v3/businesses/ysqgdbSrezXgVwER2kQWKA/reviews? 
+2024-06-23 17:47:25.3435 INFO Response Status Code: OK 
+2024-06-23 17:47:25.3585 INFO Number of reviews fetched: 3 
+2024-06-23 17:47:25.3585 INFO Successfully retrieved reviews. 
+2024-06-23 17:47:25.3585 INFO ReviewObserver: Review: Great Pizza place! If you want to feel good with some comfort food, this is the best pizza for you to try. Will always be our go-to. 
+2024-06-23 17:47:25.3585 INFO ReviewObserver: Review: Great pizza and pasta!
+Wonderful location and dinner service. 
+So worth going to Brooklyn 
+2024-06-23 17:47:25.3585 INFO ReviewObserver: Review: Food: margarita pizza was full of flavor and fresh arugula is must ($7 add-in opt.) Pizza crust was very crispy and cheese was fresh- decent pizza 
+
+Staffs:... 
+2024-06-23 17:47:25.3585 INFO ReviewObserver: All reviews successfully returned. 
+2024-06-23 17:47:25.7002 INFO Processed request: http://localhost:8080/id/ysqgdbSrezXgVwER2kQWKA 
+2024-06-23 17:47:25.7252 INFO Handling request for segment: favicon.ico 
+2024-06-23 17:47:25.7252 INFO Processed request: http://localhost:8080/favicon.ico 
+2024-06-23 17:55:18.1975 INFO Starting web server... 
+2024-06-23 17:55:18.2508 INFO Listening for requests at http://localhost:8080/ 
+2024-06-23 17:55:35.2858 INFO Handling request for segment: San_Francisco 
+2024-06-23 17:55:35.3067 INFO Getting restaurants for location: San Francisco 
+2024-06-23 17:55:35.3134 INFO Request URL: https://api.yelp.com/v3/businesses/search?location=San Francisco&categories=restaurants 
+2024-06-23 17:55:36.8474 INFO Response Status Code: OK 
+2024-06-23 17:55:37.2059 INFO Business found: Fog Harbor Fish House 
+2024-06-23 17:55:37.2331 INFO Business found: Brenda's French Soul Food 
+2024-06-23 17:55:37.2331 INFO Business found: Gary Danko 
+2024-06-23 17:55:37.2331 INFO Business found: House of Prime Rib 
+2024-06-23 17:55:37.2331 INFO Business found: Surisan 
+2024-06-23 17:55:37.2331 INFO Business found: Lapisara Eatery 
+2024-06-23 17:55:37.2331 INFO Business found: Sweet Maple 
+2024-06-23 17:55:37.2354 INFO Business found: Foreign Cinema 
+2024-06-23 17:55:37.2354 INFO Business found: Marufuku Ramen 
+2024-06-23 17:55:37.2354 INFO Business found: Nopa 
+2024-06-23 17:55:37.2354 INFO Business found: Hog Island Oyster 
+2024-06-23 17:55:37.2354 INFO Observer 1: f-m7-hyFzkf0HSEeQ2s-9A 
+2024-06-23 17:55:37.2354 INFO Business found: Liholiho Yacht Club 
+2024-06-23 17:55:37.2354 INFO Business found: Scoma's Restaurant 
+2024-06-23 17:55:37.2354 INFO Business found: Roma Antica 
+2024-06-23 17:55:37.2354 INFO Business found: Kokkari Estiatorio 
+2024-06-23 17:55:37.2354 INFO Business found: San Tung 
+2024-06-23 17:55:37.2354 INFO Business found: Sotto Mare 
+2024-06-23 17:55:37.2354 INFO Business found: Kitchen Story 
+2024-06-23 17:55:37.2354 INFO Business found: Zazie 
+2024-06-23 17:55:37.2354 INFO Observer 1: lJAGnYzku5zSaLnQ_T6_GQ 
+2024-06-23 17:55:37.2354 INFO Business found: Lolinda 
+2024-06-23 17:55:37.2354 INFO Observer 1: WavvLdfdP6g8aZTtbBQHTw 
+2024-06-23 17:55:37.2354 INFO Observer 1: oT08T3Vpn1I7jDmrBBRMTw 
+2024-06-23 17:55:37.2354 INFO Observer 1: i09UMzccKgyLwGYKDVP28w 
+2024-06-23 17:55:37.2354 INFO Observer 1: 0mNzmmh1mrdh5Cpg2QUBiw 
+2024-06-23 17:55:37.2354 INFO Successfully retrieved restaurants. 
+2024-06-23 17:55:37.2354 INFO Observer 1: -DrR38H1Abk0wCyu9XOLug 
+2024-06-23 17:55:37.2354 INFO Observer 1: n6L5VIGunR51-D55C-eYeQ 
+2024-06-23 17:55:37.2354 INFO Observer 1: HHtpR0RslupSQ99GIIwW5A 
+2024-06-23 17:55:37.2354 INFO Observer 1: ttarnopezxmp2ROB1N2PaA 
+2024-06-23 17:55:37.2354 INFO Observer 1: Xg-FyjVKAN70LO4u4Z1ozg 
+2024-06-23 17:55:37.2354 INFO Observer 1: KkAVX3Wb7E3lP5F_f_8pXg 
+2024-06-23 17:55:37.2354 INFO Observer 1: jqEpBbf_qNfWuz_GBkwCjw 
+2024-06-23 17:55:37.2354 INFO Observer 1: B09WOy0W83Od-Xw4xEXxog 
+2024-06-23 17:55:37.2354 INFO Observer 1: PsY5DMHxa5iNX_nX0T-qPA 
+2024-06-23 17:55:37.2354 INFO Observer 1: M0JTO3oyu6gxh1mfFjU-dA 
+2024-06-23 17:55:37.2354 INFO Observer 1: 8dUaybEPHsZMgr1iKgqgMQ 
+2024-06-23 17:55:37.2354 INFO Observer 1: XQLmEdXoMzOpffwoFaBtaQ 
+2024-06-23 17:55:37.2354 INFO Observer 1: gqVl3RprESEqkIPeJH0yOg 
+2024-06-23 17:55:37.2354 INFO Observer 1: wEpiKz--Z2b1q_FSCCNiow 
+2024-06-23 17:55:37.2354 INFO Observer 1: All restaurants successfully returned. 
+2024-06-23 17:55:37.2471 INFO Processed request: http://localhost:8080/San_Francisco 
+2024-06-23 17:55:37.2966 INFO Handling request for segment: favicon.ico 
+2024-06-23 17:55:37.2966 INFO Processed request: http://localhost:8080/favicon.ico 
+2024-06-23 17:55:47.2059 INFO Fetching reviews for restaurant ID: f-m7-hyFzkf0HSEeQ2s-9A 
+2024-06-23 17:55:47.2171 INFO Getting reviews for restaurant ID: f-m7-hyFzkf0HSEeQ2s-9A 
+2024-06-23 17:55:47.2171 INFO Request URL: https://api.yelp.com/v3/businesses/f-m7-hyFzkf0HSEeQ2s-9A/reviews? 
+2024-06-23 17:55:47.9298 INFO Response Status Code: OK 
+2024-06-23 17:55:47.9514 INFO Number of reviews fetched: 3 
+2024-06-23 17:55:47.9675 INFO Successfully retrieved reviews. 
+2024-06-23 17:55:47.9675 INFO ReviewObserver: Review: My mom and dad would take us to the piers as kids. What i remember as a kid, so much has changed. Mom would always get clam chowder and dad the crab. This... 
+2024-06-23 17:55:47.9675 INFO ReviewObserver: Review: Good food and best service, great dinner experiences by BONGJOVI, he was a great server. Best place to go for a date, and have a great San Francisco view. 
+2024-06-23 17:55:47.9675 INFO ReviewObserver: Review: Mr. Luis our server did and amazing Job with a friendly smile.
+Information was forthcoming and suggestions of specials were given. 
+2024-06-23 17:55:47.9675 INFO ReviewObserver: All reviews successfully returned. 
+2024-06-23 17:55:48.7440 INFO Processed request: http://localhost:8080/id/f-m7-hyFzkf0HSEeQ2s-9A 
+2024-06-23 17:55:48.7628 INFO Handling request for segment: favicon.ico 
+2024-06-23 17:55:48.7628 INFO Processed request: http://localhost:8080/favicon.ico 
+2024-06-23 18:04:11.4045 INFO Starting web server... 
+2024-06-23 18:04:11.4665 INFO Listening for requests at http://localhost:8080/ 
+2024-06-23 18:04:17.3351 INFO Handling request for segment: New_York 
+2024-06-23 18:04:17.3485 INFO Getting restaurants for location: New York 
+2024-06-23 18:04:17.3485 INFO Request URL: https://api.yelp.com/v3/businesses/search?location=New York&categories=restaurants 
+2024-06-23 18:04:19.0249 INFO Response Status Code: OK 
+2024-06-23 18:04:19.1602 INFO Business found: Gramercy Tavern 
+2024-06-23 18:04:19.1602 INFO Business found: Juliana's 
+2024-06-23 18:04:19.1602 INFO Business found: Manhatta 
+2024-06-23 18:04:19.1602 INFO Business found: Olio e Più 
+2024-06-23 18:04:19.1602 INFO Business found: Don Angie 
+2024-06-23 18:04:19.1602 INFO Business found: Izakaya MEW 
+2024-06-23 18:04:19.1602 INFO Business found: Eleven Madison Park 
+2024-06-23 18:04:19.1602 INFO Business found: La Grande Boucherie 
+2024-06-23 18:04:19.1602 INFO Business found: Dutch Freds 
+2024-06-23 18:04:19.1602 INFO Business found: Thursday Kitchen 
+2024-06-23 18:04:19.1602 INFO Observer 1: veq1Bl1DW3UWMekZJUsG1Q 
+2024-06-23 18:04:19.1602 INFO Business found: The Modern 
+2024-06-23 18:04:19.1602 INFO Business found: Best Bagel & Coffee 
+2024-06-23 18:04:19.1602 INFO Business found: Wayla 
+2024-06-23 18:04:19.1602 INFO Observer 1: ysqgdbSrezXgVwER2kQWKA 
+2024-06-23 18:04:19.1602 INFO Business found: Ci Siamo 
+2024-06-23 18:04:19.1602 INFO Observer 1: ypqK8DWM8Bcs43YveSJnNw 
+2024-06-23 18:04:19.1602 INFO Observer 1: 16ZnHpuaaBt92XWeJHCC5A 
+2024-06-23 18:04:19.1602 INFO Business found: Per Se 
+2024-06-23 18:04:19.1602 INFO Business found: Her Name Is Han 
+2024-06-23 18:04:19.1602 INFO Business found: Junior's Restaurant 
+2024-06-23 18:04:19.1602 INFO Business found: Bua Thai Ramen & Robata Grill 
+2024-06-23 18:04:19.1602 INFO Business found: Boucherie Union Square 
+2024-06-23 18:04:19.1602 INFO Business found: Le Coucou 
+2024-06-23 18:04:19.1602 INFO Observer 1: h37t9rA06Sr4EetJjKrfzw 
+2024-06-23 18:04:19.1602 INFO Successfully retrieved restaurants. 
+2024-06-23 18:04:19.1602 INFO Observer 1: klAhw3xLQi9GF1tf_HnS7w 
+2024-06-23 18:04:19.1602 INFO Observer 1: nRO136GRieGtxz18uD61DA 
+2024-06-23 18:04:19.1602 INFO Observer 1: DGhWO1sUWydVeR5j5ZZaMw 
+2024-06-23 18:04:19.1602 INFO Observer 1: SaYTVG7wHCMDBofHCgXPaA 
+2024-06-23 18:04:19.1751 INFO Observer 1: fVbUVAiLiGgLA_nxBFxyww 
+2024-06-23 18:04:19.1751 INFO Observer 1: _LJFf9YqpYxvExTvVxb7Rw 
+2024-06-23 18:04:19.1751 INFO Observer 1: j1S3NUrkB3BVT49n_e76NQ 
+2024-06-23 18:04:19.1751 INFO Observer 1: liZmIO0FqZwslLJfLDkfgw 
+2024-06-23 18:04:19.1751 INFO Observer 1: LkV96_buOU_n0br4SBO57w 
+2024-06-23 18:04:19.1751 INFO Observer 1: 1DfbZ0VsSCg9g1KILmnvzQ 
+2024-06-23 18:04:19.1751 INFO Observer 1: qY1o1MhoRyN84RRhUJtvpQ 
+2024-06-23 18:04:19.1751 INFO Observer 1: U5hCNNyJmb7f3dmC1HTzSQ 
+2024-06-23 18:04:19.1751 INFO Observer 1: -Q8MYIWoE4EsGQtudIOY0w 
+2024-06-23 18:04:19.1751 INFO Observer 1: 8XHbZIKDQbXhyKIGiukVeQ 
+2024-06-23 18:04:19.1751 INFO Observer 1: obFs12x7mgYPGxgalBd22w 
+2024-06-23 18:04:19.1751 INFO Observer 1: All restaurants successfully returned. 
+2024-06-23 18:04:19.1751 INFO Processed request: http://localhost:8080/New_York 
+2024-06-23 18:04:19.2241 INFO Handling request for segment: favicon.ico 
+2024-06-23 18:04:19.2241 INFO Processed request: http://localhost:8080/favicon.ico 
+2024-06-23 18:04:26.7608 INFO Fetching reviews for restaurant ID: veq1Bl1DW3UWMekZJUsG1Q 
+2024-06-23 18:04:26.7608 INFO Getting reviews for restaurant ID: veq1Bl1DW3UWMekZJUsG1Q 
+2024-06-23 18:04:26.7608 INFO Request URL: https://api.yelp.com/v3/businesses/veq1Bl1DW3UWMekZJUsG1Q/reviews? 
+2024-06-23 18:04:27.1226 INFO Response Status Code: OK 
+2024-06-23 18:04:27.1284 INFO Number of reviews fetched: 3 
+2024-06-23 18:04:27.1467 INFO Successfully retrieved reviews. 
+2024-06-23 18:04:27.1467 INFO ReviewObserver: Review: First time back in 10 years, this time in the more informal Tavern.  There's nothing to dislike about Gramercy Tavern, from delicious food to solid service.... 
+2024-06-23 18:04:27.1467 INFO ReviewObserver: Review: I chose the Gramercy Tavern because it's an NYC institution with a great reputation and excellent reviews. I figured that I couldn't go wrong, until we... 
+2024-06-23 18:04:27.1467 INFO ReviewObserver: Review: Service is impeccable. Drinks were amazing (we also got the GT manhattan and GT old fashioned, as well as the Socratic method --very peaty & leathery,... 
+2024-06-23 18:04:27.1467 INFO ReviewObserver: All reviews successfully returned. 
+2024-06-23 18:04:27.4039 INFO Processed request: http://localhost:8080/id/veq1Bl1DW3UWMekZJUsG1Q 
+2024-06-23 18:04:27.4236 INFO Handling request for segment: favicon.ico 
+2024-06-23 18:04:27.4236 INFO Processed request: http://localhost:8080/favicon.ico 
+2024-06-23 18:04:38.5534 INFO Fetching reviews for restaurant ID: ysqgdbSrezXgVwER2kQWKA 
+2024-06-23 18:04:38.5534 INFO Getting reviews for restaurant ID: ysqgdbSrezXgVwER2kQWKA 
+2024-06-23 18:04:38.5534 INFO Request URL: https://api.yelp.com/v3/businesses/ysqgdbSrezXgVwER2kQWKA/reviews? 
+2024-06-23 18:04:39.1051 INFO Response Status Code: OK 
+2024-06-23 18:04:39.1051 INFO Number of reviews fetched: 3 
+2024-06-23 18:04:39.1051 INFO Successfully retrieved reviews. 
+2024-06-23 18:04:39.1546 INFO Processed request: http://localhost:8080/id/ysqgdbSrezXgVwER2kQWKA 
+2024-06-23 18:04:39.1702 INFO Handling request for segment: favicon.ico 
+2024-06-23 18:04:39.1702 INFO Processed request: http://localhost:8080/favicon.ico 
+2024-06-23 18:12:24.8246 INFO Starting web server... 
+2024-06-23 18:12:24.8853 INFO Listening for requests at http://localhost:8080/ 
+2024-06-23 18:12:34.0191 INFO Handling request for segment: San_Francisco 
+2024-06-23 18:12:34.0191 INFO Getting restaurants for location: San Francisco 
+2024-06-23 18:12:34.0191 INFO Request URL: https://api.yelp.com/v3/businesses/search?location=San Francisco&categories=restaurants 
+2024-06-23 18:12:35.4815 INFO Response Status Code: OK 
+2024-06-23 18:12:35.8506 INFO Business found: Fog Harbor Fish House 
+2024-06-23 18:12:35.8793 INFO Business found: Surisan 
+2024-06-23 18:12:35.8793 INFO Business found: Brenda's French Soul Food 
+2024-06-23 18:12:35.8793 INFO Business found: Gary Danko 
+2024-06-23 18:12:35.8793 INFO Business found: Zazie 
+2024-06-23 18:12:35.8793 INFO Business found: House of Prime Rib 
+2024-06-23 18:12:35.8793 INFO Business found: Kitchen Story 
+2024-06-23 18:12:35.8793 INFO Business found: Lapisara Eatery 
+2024-06-23 18:12:35.8793 INFO Business found: Sweet Maple 
+2024-06-23 18:12:35.8793 INFO Business found: Foreign Cinema 
+2024-06-23 18:12:35.8793 INFO Business found: Marufuku Ramen 
+2024-06-23 18:12:35.8793 INFO Business found: Nopa 
+2024-06-23 18:12:35.8793 INFO Business found: Hog Island Oyster 
+2024-06-23 18:12:35.8793 INFO Business found: Liholiho Yacht Club 
+2024-06-23 18:12:35.8793 INFO Business found: Scoma's Restaurant 
+2024-06-23 18:12:35.8793 INFO Business found: Son & Garden 
+2024-06-23 18:12:35.8793 INFO Business found: Roma Antica 
+2024-06-23 18:12:35.8793 INFO Observer 1: f-m7-hyFzkf0HSEeQ2s-9A 
+2024-06-23 18:12:35.8793 INFO Business found: Kokkari Estiatorio 
+2024-06-23 18:12:35.8793 INFO Business found: San Tung 
+2024-06-23 18:12:35.8793 INFO Business found: Sotto Mare 
+2024-06-23 18:12:35.8793 INFO Observer 1: i09UMzccKgyLwGYKDVP28w 
+2024-06-23 18:12:35.8793 INFO Successfully retrieved restaurants. 
+2024-06-23 18:12:35.8793 INFO Observer 1: lJAGnYzku5zSaLnQ_T6_GQ 
+2024-06-23 18:12:35.8793 INFO Observer 1: WavvLdfdP6g8aZTtbBQHTw 
+2024-06-23 18:12:35.8861 INFO Observer 1: gqVl3RprESEqkIPeJH0yOg 
+2024-06-23 18:12:35.8861 INFO Observer 1: oT08T3Vpn1I7jDmrBBRMTw 
+2024-06-23 18:12:35.8861 INFO Observer 1: XQLmEdXoMzOpffwoFaBtaQ 
+2024-06-23 18:12:35.8861 INFO Observer 1: 0mNzmmh1mrdh5Cpg2QUBiw 
+2024-06-23 18:12:35.8861 INFO Observer 1: -DrR38H1Abk0wCyu9XOLug 
+2024-06-23 18:12:35.8861 INFO Observer 1: n6L5VIGunR51-D55C-eYeQ 
+2024-06-23 18:12:35.8861 INFO Observer 1: HHtpR0RslupSQ99GIIwW5A 
+2024-06-23 18:12:35.8861 INFO Observer 1: ttarnopezxmp2ROB1N2PaA 
+2024-06-23 18:12:35.8861 INFO Observer 1: Xg-FyjVKAN70LO4u4Z1ozg 
+2024-06-23 18:12:35.8861 INFO Observer 1: KkAVX3Wb7E3lP5F_f_8pXg 
+2024-06-23 18:12:35.8861 INFO Observer 1: jqEpBbf_qNfWuz_GBkwCjw 
+2024-06-23 18:12:35.8861 INFO Observer 1: vLNzJX1ctfP4NNESCFOeGw 
+2024-06-23 18:12:35.8861 INFO Observer 1: B09WOy0W83Od-Xw4xEXxog 
+2024-06-23 18:12:35.8861 INFO Observer 1: PsY5DMHxa5iNX_nX0T-qPA 
+2024-06-23 18:12:35.8861 INFO Observer 1: M0JTO3oyu6gxh1mfFjU-dA 
+2024-06-23 18:12:35.8861 INFO Observer 1: 8dUaybEPHsZMgr1iKgqgMQ 
+2024-06-23 18:12:35.8861 INFO Observer 1: All restaurants successfully returned. 
+2024-06-23 18:12:35.8861 INFO Processed request: http://localhost:8080/San_Francisco 
+2024-06-23 18:12:35.9432 INFO Handling request for segment: favicon.ico 
+2024-06-23 18:12:35.9432 INFO Processed request: http://localhost:8080/favicon.ico 
+2024-06-23 18:12:45.9847 INFO Fetching reviews for restaurant ID: i09UMzccKgyLwGYKDVP28w 
+2024-06-23 18:12:45.9847 INFO Getting reviews for restaurant ID: i09UMzccKgyLwGYKDVP28w 
+2024-06-23 18:12:45.9847 INFO Request URL: https://api.yelp.com/v3/businesses/i09UMzccKgyLwGYKDVP28w/reviews? 
+2024-06-23 18:12:46.6277 INFO Response Status Code: OK 
+2024-06-23 18:12:46.6472 INFO Number of reviews fetched: 3 
+2024-06-23 18:12:46.6626 INFO Successfully retrieved reviews. 
+2024-06-23 18:12:46.6626 INFO ReviewObserver: Review: Amazing experience at this location :) Bank is our server and she's incredible employee. 
+2024-06-23 18:12:46.6626 INFO ReviewObserver: Review: Though a little over-priced, Surisan offers innovative Korean fusion cuisine that delivers a delicious meal in a congenial setting. Choose indoor or if the... 
+2024-06-23 18:12:46.6626 INFO ReviewObserver: Review: Very good food. The service was fast and efficient... The ambiance was chill. The wings had that crunch that you'd expect from a Korean restaurant and the... 
+2024-06-23 18:12:46.6626 INFO ReviewObserver: All reviews successfully returned. 
+2024-06-23 18:12:47.4561 INFO Processed request: http://localhost:8080/id/i09UMzccKgyLwGYKDVP28w 
+2024-06-23 18:12:47.4717 INFO Handling request for segment: favicon.ico 
+2024-06-23 18:12:47.4717 INFO Processed request: http://localhost:8080/favicon.ico 

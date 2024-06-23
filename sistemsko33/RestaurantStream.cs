@@ -41,7 +41,7 @@ namespace sistemsko2
                 //int limit = 20; // Yelp API's max limit per request is 20
                // bool moreReviewsAvailable = true;
 
-               // allReviews.Clear(); 
+                allReviews.Clear(); 
 
                
                     var url = $"https://api.yelp.com/v3/businesses/{restaurantId}/reviews?"; 

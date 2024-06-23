@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\Kristina\\Sistemsko3\\sistemsko33\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CB621C2D-81EB-40E8-817C-5C2EA87B998E}|sistemsko2.csproj|c:\\users\\kristina\\sistemsko3\\sistemsko33\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CB621C2D-81EB-40E8-817C-5C2EA87B998E}|sistemsko2.csproj|C:\\Users\\Kristina\\Sistemsko3\\sistemsko33\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB621C2D-81EB-40E8-817C-5C2EA87B998E}|sistemsko2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,12 +11,12 @@
       "RelativeMoniker": "D:0:0:{CB621C2D-81EB-40E8-817C-5C2EA87B998E}|sistemsko2.csproj|solutionrelative:restaurantstream.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB621C2D-81EB-40E8-817C-5C2EA87B998E}|sistemsko2.csproj|C:\\Users\\Kristina\\Sistemsko3\\sistemsko33\\reviewobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB621C2D-81EB-40E8-817C-5C2EA87B998E}|sistemsko2.csproj|solutionrelative:reviewobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CB621C2D-81EB-40E8-817C-5C2EA87B998E}|sistemsko2.csproj|c:\\users\\kristina\\sistemsko3\\sistemsko33\\topicmodeling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB621C2D-81EB-40E8-817C-5C2EA87B998E}|sistemsko2.csproj|solutionrelative:topicmodeling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB621C2D-81EB-40E8-817C-5C2EA87B998E}|sistemsko2.csproj|C:\\Users\\Kristina\\Sistemsko3\\sistemsko33\\topicmodeling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB621C2D-81EB-40E8-817C-5C2EA87B998E}|sistemsko2.csproj|solutionrelative:topicmodeling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CB621C2D-81EB-40E8-817C-5C2EA87B998E}|sistemsko2.csproj|C:\\Users\\Kristina\\Sistemsko3\\sistemsko33\\reviewobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB621C2D-81EB-40E8-817C-5C2EA87B998E}|sistemsko2.csproj|solutionrelative:reviewobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CB621C2D-81EB-40E8-817C-5C2EA87B998E}|sistemsko2.csproj|C:\\Users\\Kristina\\Sistemsko3\\sistemsko33\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,15 +42,16 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "TopicModeling.cs",
               "DocumentMoniker": "C:\\Users\\Kristina\\Sistemsko3\\sistemsko33\\TopicModeling.cs",
               "RelativeDocumentMoniker": "TopicModeling.cs",
               "ToolTip": "C:\\Users\\Kristina\\Sistemsko3\\sistemsko33\\TopicModeling.cs",
               "RelativeToolTip": "TopicModeling.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAMAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T12:20:01.317Z"
+              "WhenOpened": "2024-06-21T12:20:01.317Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -72,14 +73,14 @@
               "RelativeDocumentMoniker": "RestaurantStream.cs",
               "ToolTip": "C:\\Users\\Kristina\\Sistemsko3\\sistemsko33\\RestaurantStream.cs",
               "RelativeToolTip": "RestaurantStream.cs",
-              "ViewState": "AQIAAJcAAAAAAAAAAAAAAKEAAAAJAAAA",
+              "ViewState": "AQIAAFsAAAAAAAAAAAAIwKsAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-17T16:08:19.142Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ReviewObserver.cs",
               "DocumentMoniker": "C:\\Users\\Kristina\\Sistemsko3\\sistemsko33\\ReviewObserver.cs",
               "RelativeDocumentMoniker": "ReviewObserver.cs",
@@ -97,7 +98,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Kristina\\Sistemsko3\\sistemsko33\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAcwD0AAAANAAAA",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAQwC0AAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-17T16:07:12.965Z",
               "EditorCaption": ""
