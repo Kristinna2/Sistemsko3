@@ -72,9 +72,19 @@ public class Program
             if (segment.All(c => char.IsLetter(c) || c == '_'))
             {
                 string location = segment.Replace("_", " ");
-                Logger.Info($"Fetching restaurants for location: {location}");
-                await restaurantStream.GetRestaurants(location);
-                return FormatRestaurantIdsAsHtml(restaurantStream.allRestaurants);
+                try
+                {
+                    Console.WriteLine($"Fetching restaurants for location: {location}");
+                    await restaurantStream.GetRestaurants(location);
+                    return FormatRestaurantIdsAsHtml(restaurantStream.allRestaurants);
+                }
+                catch (Exception e)
+                {
+                    
+                    Console.WriteLine($"Error fetching restaurants for location {location}: {e.Message}");
+                    return "Error fetching restaurants. Please try again later.";
+                }
+
             }
         }
         else if (segments.Length == 3 && segments[1].Trim('/') == "id")

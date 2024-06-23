@@ -17,17 +17,17 @@ namespace sistemsko2
             var textPipeline = mlContext.Transforms.Text
                 .NormalizeText("NormalizedText", "Text")
                 .Append(mlContext.Transforms.Text.TokenizeIntoWords("Tokens", "NormalizedText"))
-                .Append(mlContext.Transforms.Text.RemoveDefaultStopWords("Tokens")) // Uklanjanje engleskih stop reči
+                .Append(mlContext.Transforms.Text.RemoveDefaultStopWords("Tokens"))
                 .Append(mlContext.Transforms.Text.ProduceWordBags("BagOfWords", "Tokens"))
                 .Append(mlContext.Transforms.Text.LatentDirichletAllocation("Topics", "BagOfWords", numberOfTopics: 2));
 
-            // Treniranje modela
+            
             var model = textPipeline.Fit(data);
 
-            // Transformisanje podataka
+            
             var transformedData = model.Transform(data);
 
-            // Prikazivanje tema
+            
             var topics = mlContext.Data.CreateEnumerable<TransformedDocument>(transformedData, reuseRowObject: false).ToList();
             var topicDistributions = new List<float[]>();
 

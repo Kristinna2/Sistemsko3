@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kristina\\Desktop\\sistemsko33\\sistemsko2.csproj": {}
+    "C:\\Users\\Kristina\\Sistemsko3\\sistemsko33\\sistemsko2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kristina\\Desktop\\sistemsko33\\sistemsko2.csproj": {
+    "C:\\Users\\Kristina\\Sistemsko3\\sistemsko33\\sistemsko2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kristina\\Desktop\\sistemsko33\\sistemsko2.csproj",
+        "projectUniqueName": "C:\\Users\\Kristina\\Sistemsko3\\sistemsko33\\sistemsko2.csproj",
         "projectName": "sistemsko2",
-        "projectPath": "C:\\Users\\Kristina\\Desktop\\sistemsko33\\sistemsko2.csproj",
+        "projectPath": "C:\\Users\\Kristina\\Sistemsko3\\sistemsko33\\sistemsko2.csproj",
         "packagesPath": "C:\\Users\\Kristina\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kristina\\Desktop\\sistemsko33\\obj\\",
+        "outputPath": "C:\\Users\\Kristina\\Sistemsko3\\sistemsko33\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kristina\\AppData\\Roaming\\NuGet\\NuGet.Config",

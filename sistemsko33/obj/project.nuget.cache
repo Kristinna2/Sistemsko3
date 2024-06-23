@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hlgfL4jC26ThLa93UbVGNQ4xnj3devQRphpeDLN8EMcNjmd0OPnjSaL6WUA0OPs2Tk4QFOSBIgBW18k912cbgg==",
+  "dgSpecHash": "fbbTx3mpU2NuzvP7myeGeYX/VE6v36pQstCgaVdNORVMEkuIAPYudb+ze72mIwabQhfvb3otr1b7kLcPThxnGQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Kristina\\Desktop\\sistemsko33\\sistemsko2.csproj",
+  "projectFilePath": "C:\\Users\\Kristina\\Sistemsko3\\sistemsko33\\sistemsko2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kristina\\.nuget\\packages\\microsoft.identitymodel\\7.0.0\\microsoft.identitymodel.7.0.0.nupkg.sha512",
     "C:\\Users\\Kristina\\.nuget\\packages\\microsoft.ml\\3.0.1\\microsoft.ml.3.0.1.nupkg.sha512",

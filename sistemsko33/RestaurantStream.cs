@@ -49,12 +49,12 @@ namespace sistemsko2
                     var response = await client.GetAsync(url);
                     var content = await response.Content.ReadAsStringAsync();
                     Logger.Info($"Response Status Code: {response.StatusCode}");
-                    Logger.Info($"Response content: {content}");
+                  //  Logger.Info($"Response content: {content}");
 
                     if (!response.IsSuccessStatusCode)
                     {
                         Logger.Error($"Failed to fetch reviews: {response.StatusCode}");
-                        Logger.Error($"Response content: {content}");
+                      //  Logger.Error($"Response content: {content}");
                         
                     }
 
@@ -110,12 +110,12 @@ namespace sistemsko2
                 var response = await client.GetAsync(url);
                 var content = await response.Content.ReadAsStringAsync();
                 Logger.Info($"Response Status Code: {response.StatusCode}");
-                Logger.Info($"Response content: {content}");
+              //  Logger.Info($"Response content: {content}");
 
                 if (!response.IsSuccessStatusCode)
                 {
                     Logger.Error($"Failed to fetch restaurants: {response.StatusCode}");
-                    Logger.Error($"Response content: {content}");
+                    //Logger.Error($"Response content: {content}");
                     return;
                 }
 
@@ -149,6 +149,7 @@ namespace sistemsko2
             {
                 Logger.Error(e, "Error getting restaurants.");
                 restaurantSubject.OnError(e);
+                
             }
         }
 
