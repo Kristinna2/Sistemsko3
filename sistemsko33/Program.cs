@@ -32,31 +32,43 @@ public class Program
 
         Logger.Info("Listening for requests at http://localhost:8080/");
 
-        while (true)
+        try
         {
-            var context = await listener.GetContextAsync();
-            var request = context.Request;
-            var response = context.Response;
-
-            try
+            while (true)
             {
-                string responseString = await HandleRequest(restaurantStream, request);
-                var buffer = Encoding.UTF8.GetBytes(responseString);
+                var context = await listener.GetContextAsync();
+                var request = context.Request;
+                var response = context.Response;
 
-                response.ContentLength64 = buffer.Length;
-                var responseOutput = response.OutputStream;
-                await responseOutput.WriteAsync(buffer, 0, buffer.Length);
-                responseOutput.Close();
+                try
+                {
+                    string responseString = await HandleRequest(restaurantStream, request);
+                    var buffer = Encoding.UTF8.GetBytes(responseString);
 
-                Logger.Info($"Processed request: {request.Url}");
+                    response.ContentLength64 = buffer.Length;
+                    var responseOutput = response.OutputStream;
+                    await responseOutput.WriteAsync(buffer, 0, buffer.Length);
+                    responseOutput.Close();
+
+                    Logger.Info($"Processed request: {request.Url}");
+                }
+                catch (Exception ex)
+                {
+                    Logger.Error(ex, "Error processing request");
+                    response.StatusCode = 500;
+                    response.StatusDescription = "Internal Server Error";
+                    response.Close();
+                }
             }
-            catch (Exception ex)
-            {
-                Logger.Error(ex, "Error processing request");
-                response.StatusCode = 500;
-                response.StatusDescription = "Internal Server Error";
-                response.Close();
-            }
+        }
+        finally
+        {
+            
+            subscription1.Dispose();
+            reviewSubscription.Dispose();
+
+            
+            listener.Close();
         }
     }
 

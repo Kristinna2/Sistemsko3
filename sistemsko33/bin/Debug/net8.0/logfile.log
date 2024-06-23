@@ -627,3 +627,77 @@ Information was forthcoming and suggestions of specials were given.
 2024-06-23 12:00:08.4649 INFO Listening for requests at http://localhost:8080/ 
 2024-06-23 12:00:16.6872 WARN Invalid URL format: http://localhost:8080/San_Francisco/lala/lala 
 2024-06-23 12:00:16.6872 INFO Processed request: http://localhost:8080/San_Francisco/lala/lala 
+2024-06-23 13:59:10.9688 INFO Starting web server... 
+2024-06-23 13:59:11.0209 INFO Listening for requests at http://localhost:8080/ 
+2024-06-23 13:59:20.5304 INFO Handling request for segment: zz 
+2024-06-23 13:59:20.5505 INFO Getting restaurants for location: zz 
+2024-06-23 13:59:20.5597 INFO Request URL: https://api.yelp.com/v3/businesses/search?location=zz&categories=restaurants 
+2024-06-23 13:59:21.1963 INFO Response Status Code: BadRequest 
+2024-06-23 13:59:21.1963 ERROR Failed to fetch restaurants: BadRequest 
+2024-06-23 13:59:21.1963 WARN No restaurants found. 
+2024-06-23 13:59:21.2031 INFO Processed request: http://localhost:8080/zz 
+2024-06-23 13:59:21.2327 INFO Handling request for segment: favicon.ico 
+2024-06-23 13:59:21.2327 INFO Processed request: http://localhost:8080/favicon.ico 
+2024-06-23 13:59:33.0954 INFO Handling request for segment: San_Francisco 
+2024-06-23 13:59:33.0954 INFO Getting restaurants for location: San Francisco 
+2024-06-23 13:59:33.0954 INFO Request URL: https://api.yelp.com/v3/businesses/search?location=San Francisco&categories=restaurants 
+2024-06-23 13:59:34.2001 INFO Response Status Code: OK 
+2024-06-23 13:59:34.4577 INFO Business found: Fog Harbor Fish House 
+2024-06-23 13:59:34.4741 INFO Business found: Gary Danko 
+2024-06-23 13:59:34.4741 INFO Business found: House of Prime Rib 
+2024-06-23 13:59:34.4741 INFO Business found: Brenda's French Soul Food 
+2024-06-23 13:59:34.4741 INFO Business found: Surisan 
+2024-06-23 13:59:34.4741 INFO Business found: Liholiho Yacht Club 
+2024-06-23 13:59:34.4741 INFO Business found: Marufuku Ramen 
+2024-06-23 13:59:34.4741 INFO Business found: Foreign Cinema 
+2024-06-23 13:59:34.4741 INFO Business found: Roma Antica 
+2024-06-23 13:59:34.4741 INFO Observer 1: f-m7-hyFzkf0HSEeQ2s-9A 
+2024-06-23 13:59:34.4741 INFO Business found: Nopa 
+2024-06-23 13:59:34.4741 INFO Business found: Hog Island Oyster 
+2024-06-23 13:59:34.4741 INFO Business found: Scoma's Restaurant 
+2024-06-23 13:59:34.4741 INFO Business found: San Tung 
+2024-06-23 13:59:34.4741 INFO Observer 1: WavvLdfdP6g8aZTtbBQHTw 
+2024-06-23 13:59:34.4741 INFO Business found: Kokkari Estiatorio 
+2024-06-23 13:59:34.4741 INFO Observer 1: oT08T3Vpn1I7jDmrBBRMTw 
+2024-06-23 13:59:34.4741 INFO Business found: Sotto Mare 
+2024-06-23 13:59:34.4741 INFO Observer 1: lJAGnYzku5zSaLnQ_T6_GQ 
+2024-06-23 13:59:34.4741 INFO Business found: Beretta Valencia 
+2024-06-23 13:59:34.4741 INFO Observer 1: i09UMzccKgyLwGYKDVP28w 
+2024-06-23 13:59:34.4741 INFO Business found: Kitchen Story 
+2024-06-23 13:59:34.4741 INFO Observer 1: KkAVX3Wb7E3lP5F_f_8pXg 
+2024-06-23 13:59:34.4741 INFO Business found: Lazy Bear 
+2024-06-23 13:59:34.4741 INFO Observer 1: HHtpR0RslupSQ99GIIwW5A 
+2024-06-23 13:59:34.4741 INFO Business found: Sweet Maple 
+2024-06-23 13:59:34.4741 INFO Observer 1: n6L5VIGunR51-D55C-eYeQ 
+2024-06-23 13:59:34.4741 INFO Business found: Lolinda 
+2024-06-23 13:59:34.4741 INFO Observer 1: B09WOy0W83Od-Xw4xEXxog 
+2024-06-23 13:59:34.4795 INFO Observer 1: ttarnopezxmp2ROB1N2PaA 
+2024-06-23 13:59:34.4795 INFO Observer 1: Xg-FyjVKAN70LO4u4Z1ozg 
+2024-06-23 13:59:34.4795 INFO Observer 1: jqEpBbf_qNfWuz_GBkwCjw 
+2024-06-23 13:59:34.4795 INFO Successfully retrieved restaurants. 
+2024-06-23 13:59:34.4795 INFO Observer 1: M0JTO3oyu6gxh1mfFjU-dA 
+2024-06-23 13:59:34.4795 INFO Observer 1: PsY5DMHxa5iNX_nX0T-qPA 
+2024-06-23 13:59:34.4795 INFO Observer 1: 8dUaybEPHsZMgr1iKgqgMQ 
+2024-06-23 13:59:34.4795 INFO Processed request: http://localhost:8080/San_Francisco 
+2024-06-23 13:59:34.4795 INFO Observer 1: 4KfQnlcSu4bbTqnvGdGptw 
+2024-06-23 13:59:34.4795 INFO Observer 1: XQLmEdXoMzOpffwoFaBtaQ 
+2024-06-23 13:59:34.4795 INFO Observer 1: uBaXDGwJPUkOSLWxS2vZ9Q 
+2024-06-23 13:59:34.4795 INFO Observer 1: -DrR38H1Abk0wCyu9XOLug 
+2024-06-23 13:59:34.4795 INFO Observer 1: wEpiKz--Z2b1q_FSCCNiow 
+2024-06-23 13:59:34.4795 INFO Observer 1: All restaurants successfully returned. 
+2024-06-23 13:59:34.5139 INFO Handling request for segment: favicon.ico 
+2024-06-23 13:59:34.5139 INFO Processed request: http://localhost:8080/favicon.ico 
+2024-06-23 13:59:46.2419 INFO Fetching reviews for restaurant ID: f-m7-hyFzkf0HSEeQ2s-9A 
+2024-06-23 13:59:46.2462 INFO Getting reviews for restaurant ID: f-m7-hyFzkf0HSEeQ2s-9A 
+2024-06-23 13:59:46.2462 INFO Request URL: https://api.yelp.com/v3/businesses/f-m7-hyFzkf0HSEeQ2s-9A/reviews? 
+2024-06-23 13:59:46.7824 INFO Response Status Code: OK 
+2024-06-23 13:59:46.7824 INFO Number of reviews fetched: 3 
+2024-06-23 13:59:46.8080 INFO Successfully retrieved reviews. 
+2024-06-23 13:59:46.8080 INFO ReviewObserver: Review: My mom and dad would take us to the piers as kids. What i remember as a kid, so much has changed. Mom would always get clam chowder and dad the crab. This... 
+2024-06-23 13:59:46.8080 INFO ReviewObserver: Review: Good food and best service, great dinner experiences by BONGJOVI, he was a great server. Best place to go for a date, and have a great San Francisco view. 
+2024-06-23 13:59:46.8080 INFO ReviewObserver: Review: Mr. Luis our server did and amazing Job with a friendly smile.
+Information was forthcoming and suggestions of specials were given. 
+2024-06-23 13:59:46.8080 INFO ReviewObserver: All reviews successfully returned. 
+2024-06-23 13:59:48.0271 INFO Processed request: http://localhost:8080/id/f-m7-hyFzkf0HSEeQ2s-9A 
+2024-06-23 13:59:48.0415 INFO Handling request for segment: favicon.ico 
+2024-06-23 13:59:48.0418 INFO Processed request: http://localhost:8080/favicon.ico 
